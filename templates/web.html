@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="web.css">
+     <link rel="stylesheet" href="{{ url_for('static', filename='web.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merienda:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>My project</title>
+</head>
+<body>
+    <header class="sam">
+        <a href="#" class="logo">Please select your order</a>
+        <nav class="navigtion">
+            <a href="#baby">BABY</a>
+            <a href="#man0">MAN</a>
+            <a href="#woman">Women</a>
+            
+        </nav>
+    </header>
+    
+    
+    <section class="cards">
+        <div class="title1" id="sam">
+            <h2>WORLD CLOTHES</h2>
+        </div>
+        <div class="content">
+            <a class="card" href="#baby">
+                <h3>BABY</h3>
+                <!-- <img src="baby.webp" id="jj"> -->
+                <img src="{{url_for('static',filename='images/rr.webp')}}" id="jj">
+            
+                
+            </a>
+            <a class="card" href="#man0">
+                <h3>MAN</h3>
+                <!-- <img src="Tt.png" id="jj">              -->
+                <!-- <img src="Tt.png" id="jj"> -->
+                <img src="{{url_for('static',filename='images/Tt.png')}}" id="jj">
+
+            </a>
+            <a class="card" href="#woman">
+                <h3>Women</h3>
+                <!-- <img src="file_000000009a5c8210851e134f9ecbd1c0.png" id="jj"> -->
+                <img src="{{url_for('static',filename='images/ff.png')}}" id="jj">
+            </a>
+        </div>
+
+    </section>
+    <section class="main" id="baby"><video width="2250" height="1300"" muted loop playsinline autoplay>
+        <source src="{{url_for('static',filename='images/oo.mp4')}}">
+    </section>
+    <section class="baby1"><a href="#sam">
+
+        
+        <h1 id="b">B</h1>
+    <h2 id="a">A</h2>
+<h3 id="d">B</h3>
+<h4 id="y">Y</h4></a>
+<div class="product-card">
+    {%for product in item%}
+        <div class="product"><img src="{{product.image_url}}" width="200" id="inf1">
+        <h2>{{product.ittem}}</h2>
+<h3>befor:{{product.ittttem}}</h3>
+<h4>after:{{product.itttem}}</h4></div>
+    {% endfor %}
+</div>
+
+    </section>
+    <section><img src="{{url_for('static',filename='images/xx.png')}}" id="man0"></section>
+   <section class="man1" id="man00"><a href="#sam">MAN</a><div class="man2">
+    {%for man3 in item43%}
+    <div class="man3"><img src="{{man3.img}}" width="200" id="img">
+    <h2>{{man3.man}}</h2>
+    
+    <h5>befor:{{man3.manw}}</h5>
+<h6>after:{{man3.manr}}</h6></div>
+    {%endfor%}
+
+   </div></section>
+    <section class="main" id="woman"><video width="2250" height="1300"" muted loop playsinline autoplay>
+        <source src="{{url_for('static',filename='images/mmn.mp4')}}" id="woman">
+    </section>
+   <section class="weman" id="weman"><a href="#sam"><h9 id="w">w</h9><h10 id="omen">omen</h10></a><div class="weman2">
+    {%for weman in weman33%}
+    <div class="weman1"><img src="{{weman.img3}}" width="200" id="img0">
+    <h2>{{weman.weman1}}</h2>
+    
+    <h5>befor:{{weman.weman2}}</h5>
+<h6>after:{{weman.weman3}}</h6>
+<h3>{{weman.weman4}}</h3></div>
+    {%endfor%}
+
+   </div></section>
+   
+
+   
+    
+</body>
+</html>

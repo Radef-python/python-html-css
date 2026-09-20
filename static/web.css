@@ -1,0 +1,448 @@
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+.sam{
+    background-color: rgb(147, 145, 145);
+    /* background-color: #fbf2e2; */
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    top: 10px;
+    }
+    
+
+
+
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(39, 42, 39, 0.883);
+    text-transform: uppercase;
+    font-weight: 700;}
+    
+ 
+
+
+    /* font-family: "story script", cursive; */
+    /* font-weight: 400;
+    font-style: normal;} */
+.navigtion a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 30px;
+
+}
+.navigtion a:hover{
+    color: aliceblue;
+} 
+
+
+
+.title1 h2{
+        display: flex;
+        margin-top: 60px;
+        color: rgb(19, 19, 19);
+        justify-content: center;
+        font-size: 2.5em;
+        
+        
+        width: 999;
+        margin-bottom: 20px;
+        /* font-family: "Lobster Tow",cursive; */
+        /* /* .archivo-black-regular { */
+  /* font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        
+        font-style: normal;}
+
+
+  
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fbfaf9;
+    width: 31em;
+    box-shadow: 0 5px 25px rgb(118, 117, 115);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 55px;
+    height: 37em;
+    transition: 0.9s ease;
+    text-decoration: none;
+    color: inherit;
+    
+    
+    
+}
+.card:hover{
+    background-color: rgb(156, 155, 155);
+    transition: scale(1.1);
+}
+.card h3{
+    color: rgb(15, 18, 18);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    /* width: 10px; */
+    
+
+}
+#jj{width: 100%;
+height: 100%;
+object-fit: cover;
+flex-wrap: wrap;
+border-radius: 10px;}
+
+#ee{color: black;
+font-size: 44px;}
+body{background-color: rgb(252, 252, 251);}
+#b{
+    color: #7DB9D3;
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+    text-decoration: none;
+   
+/* font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;*/
+font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+#a{color: #faaac1;
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    text-decoration: none;
+    /* color: inherit; */
+/* font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal; */
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#d{color: #67d6aa;
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+    text-decoration: none;
+    font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+/* font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal; */
+}
+#y{color: #fbd774;
+    display: flex;
+    justify-content: center;
+    font-size: 160px;
+    text-decoration: none;
+    
+/* font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal; */
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 8px;
+}
+.baby1 a{ 
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: rgb(19, 19, 19)
+}
+.product-card{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(241, 238, 238);
+    width: 31em;
+    box-shadow: 0 5px 25px rgb(118, 117, 115);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 55px;
+    height: 37em;
+    transition: 0.9s ease;
+    text-decoration: none;
+    color: inherit; */
+
+    
+    
+}
+
+#inf1{
+    height: 21em;
+    width: 19em;
+    margin: 20px;
+    margin-left: 20;
+    /* flex-wrap: wrap; */
+}
+.product-card p{
+    color: red;
+}
+.product{background-color: #f8cf9d;
+    width: 24em;
+    box-shadow: 0 5px 25px rgb(244, 244, 244);
+    border-radius: 8px;
+    padding: 25px;
+    margin: 25px;
+    height: 35em;
+    transition: 0.9s ease;
+    text-decoration: none;
+    color: inherit;
+    
+}
+.product:hover{
+    background-color: rgb(172, 224, 246);
+    transition: scale(1.1);
+}
+.product-card h3{
+    font-size: 15px;
+    color: rgb(247, 46, 46);
+    margin-top: 5px;
+}
+.product-card h4{
+    font-size: 25px;
+}
+.main{display: flex;
+justify-content: center;}
+.baby1{background-color: #fbf2e2;}
+#main{width: 1500px;
+     height: 1250px;
+    display: flex;
+flex-wrap: wrap;}
+
+.baby1 a{ 
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: rgb(19, 19, 19)
+}
+.product-card{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+   
+    flex-wrap: wrap;}
+   
+    
+    
+
+
+#man00{background-color: #eff0f1;}
+
+.man2{display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 25px;}
+.man3{
+        
+
+  
+padding: 35px;
+box-shadow: #fcfcfa;
+    transition: 0.9s ease;
+        border-radius: 8px;
+        height: 38em;
+        width: 26em;
+        
+        background-color:  rgb(100, 104, 106);
+        margin: 15px;
+        
+
+
+}
+.man3:hover{
+    background-color: rgb(255, 255, 255);
+    transition: scale(1.1);
+}
+#img{width: 100%;
+height: 450px;
+object-fit: cover;
+object-position: center top;
+display: block;
+}
+.man1 a{color: #a76831;
+    display: flex;
+font-size: 60px;
+justify-content: center;
+text-decoration: none;}
+#man0{
+    
+    display: grid;
+    width: 1830px;
+     height: 1100px;
+     justify-content: center;
+     align-items: center;
+     /* padding: 80px; */
+     margin-left: 5px;
+    
+flex-wrap: wrap;
+
+
+}
+.man1 a{ display: flex;
+        color: rgb(32, 31, 31);
+        justify-content: center;
+        font-size: 4.5em;
+        
+        
+        width: 999;
+        
+        /* font-family: "Lobster Tow",cursive; */
+        /* /* .archivo-black-regular { */
+  /* font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+        font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+.man3 h2{color: #fbfaf9;
+margin-top: 15px;}
+.man3 h6{color: #1b1a1a;
+font-size: 30px;}
+.man3 h5{color: #141413;
+font-size: 17px;}
+
+
+#weman{background-color: #f6ceda;}
+.weman1{padding: 35px;
+box-shadow: #fcfcfa;
+    transition: 0.9s ease;
+        border-radius: 8px;
+        height: 38em;
+        width: 26em;
+        
+        background-color:  #fefefd;
+        margin: 10px;
+        
+
+
+}
+.weman1:hover{
+    background-color: #898887;
+    transition: scale(1.1);
+
+}
+
+
+.weman2{display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 25px;}
+.weman a{ display: flex;
+        color: rgb(241, 238, 238);
+        justify-content: center;
+        text-decoration: none;
+        font-size: 4.5em;
+        
+        
+        width: 999;
+        
+        /* font-family: "Lobster Tow",cursive; */
+        /* /* .archivo-black-regular { */
+  /* font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+        font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+#img0{width: 100%;
+height: 450px;
+object-fit: cover;
+object-position: center top;
+display: block;}
+.weman1 h2{color: #080808;
+margin-top: 15px;}
+.weman1 h6{color: #111111;
+font-size: 25px;}
+.weman1 h5{color: #101010;
+font-size: 17px;}
+.weman1 h3{color: #121211;
+font-size: 10px;}
+.weman1 h3{color: red;
+margin-left: 200px;
+margin-bottom: 20px;
+font-size: 10px;
+margin-top: -30px;}
+#w{color: #898887;
+display: flex;
+        
+        justify-content: center;
+        text-decoration: none;
+        font-size: 2.5em;
+        
+        
+        width: 999;
+        
+        /* font-family: "Lobster Tow",cursive; */
+        /* /* .archivo-black-regular { */
+  /* font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+        font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: -1px;
+
+
+margin-top: -20px;}
+#omen{display: flex;
+        color: rgb(241, 238, 238);
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1em;
+
+        
+        
+        width: 800;
+        
+        /* font-family: "Lobster Tow",cursive; */
+        /* /* .archivo-black-regular { */
+  /* font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+        font-family: "Bowlby One SC", sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+margin-top: 90px;}
