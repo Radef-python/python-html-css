@@ -60,9 +60,14 @@
         </div>
 
     </section>
-    <section class="main" id="baby"><video width="2250" height="1300"" muted loop playsinline autoplay>
+    <!-- <section class="main" id="baby"><video width="2250" height="1300"" muted loop playsinline autoplay>
         <source src="{{url_for('static',filename='images/oo.mp4')}}">
-    </section>
+    </section> -->
+    <section class="main" id="baby">
+    <video muted autoplay loop>
+        <source src="{{ url_for('static', filename='images/oo.mp4') }}" type="video/mp4">
+    </video>
+</section>
     <section class="baby1"><a href="#sam">
 
         
